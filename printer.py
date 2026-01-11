@@ -6,6 +6,7 @@ class Printer:
         self._buf = []
         self._col = 0
 
+
     def write(self, s):
         s = str(s)
         self._buf.append(s)
